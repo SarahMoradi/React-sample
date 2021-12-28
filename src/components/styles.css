@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.post_header{
+    padding: 20px 0;
+    background-color: rgb(121, 187, 187);
+    text-align: center;
+    color: #fff;
+    
+}
+.post_listStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    margin: 20px 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.post_listStyle:hover{
+    cursor: pointer;
+    background-color: rgb(119, 154, 224);
+    color: #fff;
+}
